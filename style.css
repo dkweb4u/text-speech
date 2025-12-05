@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: linear-gradient(45deg, #EEAECA, #94BBE9);
+}
+main{
+    width: 100%;
+    min-height: 100vh;
+    min-height: 100dvh;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .content-box{
+    display: flex;
+    flex-flow: column;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+main h2{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    line-height: 36px;
+}
+main textarea{
+    max-width: 450px;
+    width: 100%;
+    border-radius: 30px;
+    min-height: 200px;
+    display: flex;
+    outline-color: transparent;
+    border: 1px solid #fff;
+    background-color: #0002;
+    padding: 15px;
+}
+main textarea::placeholder{
+    color: #000;
+}
+main select {
+    width: 100%;
+    padding: 10px 15px;
+    display: block;
+    height: 40px;
+    border-radius: 30px;
+    margin: 15px;
+    outline: none;
+    border-color: transparent;
+        background-color: #0002;
+}
+main .select-box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 450px;
+} 
+main .select-box button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 20px;
+    border-radius: 30px;
+    cursor: pointer;
+    outline-color: transparent;
+    border-color: transparent;
+    background-color: #e91e63;
+    color: #fff;
+}
+main .select-box svg{
+    height: 20px;
+    width: 20px;
+    fill: #fff;
+    margin-right: 10px;
+
+}
